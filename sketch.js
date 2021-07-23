@@ -74,7 +74,7 @@ function draw() {
     
   }
   Astronut.bounceOff(edges);
-  Astronut.debug=true;
+  //Astronut.debug=true;
   Astronut.setCollider("rectangle",0,0,1700,2300);
   drawSprites();
 }
